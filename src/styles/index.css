@@ -6,6 +6,10 @@
    the single warm accent. Paper is a parchment off-white, closer to
    an exam certificate than a generic "AI cream".
 ------------------------------------------------------------------*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --paper: #f4efe2;
   --paper-raised: #fbf8f0;

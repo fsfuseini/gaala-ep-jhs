@@ -12,7 +12,7 @@ export const schoolInfo = {
   location: 'Tilagbeni, near the New Market, South-East of Saboba Township, Saboba District, Northern Region',
   address: 'Gaala E.P. Junior High School, Tilagbeni, P.O. Box, Saboba, Northern Region, Ghana',
   phone: '+233 XX XXX XXXX',
-  email: 'info@gaalaepjhs.edu.gh',
+  email: 'info@gaalaepjhs.org',
   mapQuery: 'Saboba, Northern Region, Ghana',
   mapEmbedSrc:
     'https://www.google.com/maps?q=Saboba,+Northern+Region,+Ghana&output=embed',
