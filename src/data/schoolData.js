@@ -268,7 +268,7 @@ export const alumniInfo = {
 export const alumniLeadership = [
   {
     name: 'Johnson Libe Naapi',
-    role: 'Patron, Gaala E.P. JHS Alumni Association',
+    role: 'Patron, Alumni Association',
     bio: '',
     photo: 'patronJohnsonLibeNaapi',
   },
