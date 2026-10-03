@@ -12,7 +12,7 @@ export const schoolInfo = {
   location: 'Tilagbeni, near the New Market, South-East of Saboba Township, Saboba District, Northern Region',
   address: 'Gaala E.P. Junior High School, Tilagbeni, P.O. Box 9, Saboba, Northern Region, Ghana',
   phone: '+233 XX XXX XXXX',
-  email: 'info@gaalaepjhs.org',
+  email: 'info@gaalaepjhs.edu.gh',
   mapQuery: 'Saboba, Northern Region, Ghana',
   mapEmbedSrc:
     'https://www.google.com/maps?q=Saboba,+Northern+Region,+Ghana&output=embed',
@@ -272,12 +272,28 @@ export const alumniLeadership = [
     bio: '',
     photo: 'patronJohnsonLibeNaapi',
   },
-  // Planning Committee placeholders: send each member's name, role, a short
-  // bio (one or two sentences), and which photo to use, and these will be
-  // filled in and photos added to src/assets/images/people.
-  { name: '', role: 'Planning Committee Chair', bio: '', photo: null },
-  { name: '', role: 'Planning Committee Member', bio: '', photo: null },
-  { name: '', role: 'Planning Committee Member', bio: '', photo: null },
+  {
+    name: 'Nicholas Uniyagnan Jawol',
+    role: 'Chairman',
+    bio: '',
+    photo: 'chairmanNicholasUniyagnanJawol',
+  },
+  {
+    name: 'Salifu Ali, Esq.',
+    role: 'Vice Chairman',
+    bio: '',
+    photo: 'viceChairmanSalifuAli',
+  },
+  {
+    name: 'William Nlanjerbor Jalulah',
+    role: 'Secretary',
+    bio: '',
+    photo: 'secretaryWilliamNlanjerborJalulah',
+  },
+  // No photo supplied yet for these two. Send one and it will be added to
+  // src/assets/images/people and registered in images.js.
+  { name: 'Francisca Lamani', role: 'Finance Secretary / Treasurer', bio: '', photo: null },
+  { name: 'Lasim Tigme', role: 'Organizer', bio: '', photo: null },
 ];
 
 export const ptaInfo = {

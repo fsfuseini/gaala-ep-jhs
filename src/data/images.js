@@ -19,6 +19,9 @@ import launchAddress from '../assets/images/gallery/launch-address.jpg';
 import launchStaffLine from '../assets/images/gallery/launch-staff-line.jpg';
 
 import patronJohnsonLibeNaapi from '../assets/images/people/patron-johnson-libe-naapi.jpg';
+import chairmanNicholasUniyagnanJawol from '../assets/images/people/chairman-nicholas-uniyagnan-jawol.jpg';
+import viceChairmanSalifuAli from '../assets/images/people/vice-chairman-salifu-ali.jpg';
+import secretaryWilliamNlanjerborJalulah from '../assets/images/people/secretary-william-nlanjerbor-jalulah.jpg';
 
 export const photos = {
   schoolBlockFront: {
@@ -84,6 +87,18 @@ export const photos = {
   patronJohnsonLibeNaapi: {
     src: patronJohnsonLibeNaapi,
     alt: 'Portrait of Johnson Libe Naapi, Patron of the Gaala E.P. JHS Alumni Association',
+  },
+  chairmanNicholasUniyagnanJawol: {
+    src: chairmanNicholasUniyagnanJawol,
+    alt: 'Portrait of Nicholas Uniyagnan Jawol, Chairman of the Gaala E.P. JHS Alumni Association',
+  },
+  viceChairmanSalifuAli: {
+    src: viceChairmanSalifuAli,
+    alt: 'Portrait of Salifu Ali Esq., Vice Chairman of the Gaala E.P. JHS Alumni Association',
+  },
+  secretaryWilliamNlanjerborJalulah: {
+    src: secretaryWilliamNlanjerborJalulah,
+    alt: 'Portrait of William Nlanjerbor Jalulah, Secretary of the Gaala E.P. JHS Alumni Association',
   },
 };
 
