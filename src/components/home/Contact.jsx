@@ -27,17 +27,18 @@ export default function Contact() {
               <dt>Email</dt>
               <dd>{schoolInfo.email}</dd>
             </dl>
-            <div className="contact-map">
-              <iframe
-                title="Map showing Saboba, Northern Region, Ghana"
-                src={schoolInfo.mapEmbedSrc}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
+            
           </div>
-
-          <form className="contact-form" onSubmit={handleSubmit}>
+          <div className="contact-map">
+            <iframe
+              title="Map showing Saboba, Northern Region, Ghana"
+              src={schoolInfo.mapEmbedSrc}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+          
+          {/* <form className="contact-form" onSubmit={handleSubmit}>
             <label>
               Name
               <input type="text" name="name" required />
@@ -58,7 +59,7 @@ export default function Contact() {
                 ? 'Thank you. This form is not yet connected to an inbox, please wire it up to an email service before launch.'
                 : 'This form does not send messages yet. Connect it to an email service or API before launch.'}
             </p>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>

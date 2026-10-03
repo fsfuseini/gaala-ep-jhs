@@ -35,13 +35,19 @@ export default function Header() {
             <li><Link to="/#academics" onClick={closeMenu}>Academics</Link></li>
             <li><Link to="/admissions" onClick={closeMenu}>Admissions</Link></li>
             <li><Link to="/#news" onClick={closeMenu}>News &amp; Events</Link></li>
+            <li><Link to="/library" onClick={closeMenu}>Library</Link></li>
             {/* <li><Link to="/student-portal" onClick={closeMenu}>Student Portal</Link></li>
             <li><Link to="/parent-portal" onClick={closeMenu}>Parent Portal</Link></li> */}
             <li><Link to="/#contact" onClick={closeMenu}>Contact</Link></li>
           </ul>
-          <Link to="/admissions" className="btn btn--primary" onClick={closeMenu}>
-            Apply now
-          </Link>
+          <span className="main-nav__ctas">
+            <Link to="/donate" className="btn btn--ghost" onClick={closeMenu}>
+              Donate
+            </Link>
+            <Link to="/admissions" className="btn btn--primary" onClick={closeMenu}>
+              Apply now
+            </Link>
+          </span>
         </nav>
       </div>
     </header>

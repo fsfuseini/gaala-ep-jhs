@@ -171,3 +171,59 @@
   font-size: 4rem;
   color: var(--crest-red);
 }
+
+/* Donate ------------------------------------------------------------------*/
+.donate-card {
+  max-width: 480px;
+  margin-bottom: var(--space-3);
+}
+
+.donate-card dl {
+  margin: 0;
+}
+
+.donate-card dt {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.donate-card dd {
+  margin: 0 0 var(--space-2);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.donate-card--pending {
+  background: var(--paper);
+  border-style: dashed;
+  text-align: justify;
+}
+
+/* Library -------------------------------------------------------------*/
+.resource-categories {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: var(--space-4);
+}
+
+.resource-categories li {
+  padding-left: 1.1rem;
+  position: relative;
+  color: var(--ink-soft);
+}
+
+.resource-categories li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: var(--crest-blue);
+}
+
+.portal-panel--wide {
+  max-width: 640px;
+}

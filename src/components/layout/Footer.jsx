@@ -11,11 +11,11 @@ export default function Footer() {
           <div className="footer-brand">
             <h4>{schoolInfo.shortName}</h4>
             <p>{schoolInfo.address}</p>
-            {/* <div className="footer-social">
-              <a href="#" aria-label="Facebook">f</a>
+            <div className="footer-social">
+              {/* <a href="#" aria-label="Facebook">f</a>
               <a href="#" aria-label="Twitter / X">x</a>
-              <a href="#" aria-label="YouTube">yt</a>
-            </div> */}
+              <a href="#" aria-label="YouTube">yt</a> */}
+            </div>
           </div>
 
           <div>
@@ -26,6 +26,8 @@ export default function Footer() {
               <li><Link to="/admissions">Admissions</Link></li>
               <li><Link to="/#news">News &amp; Events</Link></li>
               <li><Link to="/#gallery">Gallery</Link></li>
+              <li><Link to="/library">Library</Link></li>
+              <li><Link to="/donate">Donate</Link></li>
             </ul>
           </div>
 

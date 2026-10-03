@@ -10,12 +10,22 @@ export const schoolInfo = {
   founded: '17th October, 1995',
   founder: 'The Evangelical Presbyterian Church, Saboba District',
   location: 'Tilagbeni, near the New Market, South-East of Saboba Township, Saboba District, Northern Region',
-  address: 'Gaala E.P. Junior High School, Tilagbeni, P.O. Box, Saboba, Northern Region, Ghana',
+  address: 'Gaala E.P. Junior High School, Tilagbeni, P.O. Box 9, Saboba, Northern Region, Ghana',
   phone: '+233 XX XXX XXXX',
   email: 'info@gaalaepjhs.org',
   mapQuery: 'Saboba, Northern Region, Ghana',
   mapEmbedSrc:
     'https://www.google.com/maps?q=Saboba,+Northern+Region,+Ghana&output=embed',
+};
+
+// Fill these in once the alumni committee has set up the account. Until then
+// the Donate page shows a "details coming soon" message instead of a number.
+export const donationInfo = {
+  momoNumber: '', // e.g. '024 XXX XXXX'
+  momoName: '', // account holder name as registered with the network
+  momoNetwork: '', // e.g. 'MTN Mobile Money'
+  bankDetails: '', // optional: bank name, account name, account number
+  note: 'All contributions go toward alumni-led projects at Gaala E.P. JHS: infrastructure, learning materials, and anniversary activities.',
 };
 
 export const mission =
@@ -212,6 +222,12 @@ export const newsItems = [
     detail: 'A week of 30th anniversary celebrations for Gaala E.P. JHS, bringing together alumni, staff, parents and the Tilagbeni community.',
   },
   {
+    date: '2026',
+    title: 'Anniversary celebrations launched on campus',
+    detail: 'Alumni, staff, students and guests gathered at Tilagbeni for the launch of the Gaala@30 celebrations, with remarks, performances and a keynote address.',
+    image: 'launchKeynote',
+  },
+  {
     date: 'September 2026',
     title: 'Gaala E.P. JHS @30 on JoyNews',
     detail: 'The school\u2019s three decades of impact, its challenges and its vision for the future were discussed on JoyNews\u2019 The Pulse.',
@@ -237,7 +253,7 @@ export const newsItems = [
 
 export const alumniInfo = {
   leadership:
-    'The Gaala E.P. JHS Alumni Association is coordinated by a committee of old students, many now working as teachers, civil servants, and professionals across Ghana, who organise reunions and give back to their former school.',
+    'The Gaala E.P. JHS Alumni Association is coordinated by a Patron and a Planning Committee of old students, many now working as teachers, civil servants, and professionals across Ghana, who organise reunions and give back to their former school.',
   activities: [
     'Coordinating the school\u2019s 30th anniversary celebrations',
     'Mentoring current students through career talks and study support',
@@ -245,6 +261,24 @@ export const alumniInfo = {
     'Raising support for infrastructure and learning materials',
   ],
 };
+
+// Leadership profiles for the Alumni section. Each entry needs a name, role
+// and (optionally) a short bio and photo key from images.js. Add more
+// entries here as names, roles, bios and photos are confirmed.
+export const alumniLeadership = [
+  {
+    name: 'Johnson Libe Naapi',
+    role: 'Patron, Gaala E.P. JHS Alumni Association',
+    bio: '',
+    photo: 'patronJohnsonLibeNaapi',
+  },
+  // Planning Committee placeholders: send each member's name, role, a short
+  // bio (one or two sentences), and which photo to use, and these will be
+  // filled in and photos added to src/assets/images/people.
+  { name: '', role: 'Planning Committee Chair', bio: '', photo: null },
+  { name: '', role: 'Planning Committee Member', bio: '', photo: null },
+  { name: '', role: 'Planning Committee Member', bio: '', photo: null },
+];
 
 export const ptaInfo = {
   leadership: 'The Parent-Teacher Association (PTA) and School Management Committee (SMC) work alongside the headteacher to oversee school welfare, discipline, and development projects.',

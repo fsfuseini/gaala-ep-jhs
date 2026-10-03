@@ -76,6 +76,14 @@ refreshing or sharing a deep link does not return a 404. Push the project to
 GitHub, import it in Vercel (framework preset Vite, build `npm run build`,
 output `dist`), then add the domain under Project Settings, Domains.
 
+## Traffic / analytics
+
+`@vercel/analytics` is wired into `src/App.jsx`. It only reports data once the
+site is deployed on Vercel, nothing shows locally. After deploying, open the
+project in the Vercel dashboard and click the **Analytics** tab to see page
+views and visitor counts. This is privacy-friendly (no cookie banner needed)
+and free on Vercel's Hobby plan up to its usage limit.
+
 ## What still needs real content before launch
 
 - **Headteacher's welcome note** in `src/components/home/About.jsx` is a
@@ -98,6 +106,16 @@ output `dist`), then add the domain under Project Settings, Domains.
 - **Google Map embed** currently searches for "Saboba, Northern Region,
   Ghana"; replace `schoolInfo.mapEmbedSrc` with an embed centred on the
   school's exact location once available.
+- **Donate page** (`src/data/schoolData.js`, `donationInfo`) needs the real
+  Mobile Money number, registered name and network before it will show
+  account details; until then it shows a "coming soon" message.
+- **Alumni leadership** (`src/data/schoolData.js`, `alumniLeadership`) has
+  the Patron filled in (Johnson Libe Naapi). The Planning Committee entries
+  are placeholders: add each member's name, role, and a short bio, and drop
+  their photo into `src/assets/images/people/`.
+- **Library page** (`src/pages/Library.jsx`) is a placeholder for both the
+  alumni resource library and the student e-library. Neither stores files
+  yet; connect a file storage service when the committee is ready.
 
 ## Editing content
 

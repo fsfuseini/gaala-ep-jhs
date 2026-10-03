@@ -41,8 +41,18 @@ export default function About() {
         <div className="headteacher-note">
           <p className="eyebrow">A note from the Headteacher</p>
           <blockquote>
-            [Placeholder: add a short welcome message here in the Headteacher&rsquo;s own words. This
-            space is reserved for {currentHead.name}, who has led the school since {currentHead.period.split('–')[0].trim()}.]
+            <p>Welcome to the official website of Gaala EP JHS. This platform serves as a source of information about our academic programs, school activities, achievements, and important announcements.</p>
+
+            <p>Our school is dedicated to promoting high standards of teaching and learning while fostering integrity, discipline, respect, and lifelong learning.</p>
+
+            <p>We are committed to ensuring that every student receives the support needed to excel academically and socially.</p>
+
+            <p>We appreciate the continued support of parents, guardians, community leaders, and education stakeholders.</p>
+
+            <p>Together, we can create an enriching educational experience for all learners.</p>
+
+            <p>Kisak Daniel</p>
+            <p>HeadteacherGaala EP JHS</p>
           </blockquote>
           <cite>{currentHead.name}, Headteacher (in office since {currentHead.period.split('–')[0].trim()})</cite>
         </div>
