@@ -26,6 +26,8 @@ export default function Donate() {
                 <dd>{donationInfo.momoNetwork}</dd>
                 <dt>Number</dt>
                 <dd>{donationInfo.momoNumber}</dd>
+                <dt>Merchant ID</dt>
+                <dd>{donationInfo.merchantID}</dd>
                 <dt>Registered name</dt>
                 <dd>{donationInfo.momoName}</dd>
               </dl>

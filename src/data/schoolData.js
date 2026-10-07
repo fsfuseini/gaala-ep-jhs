@@ -12,7 +12,7 @@ export const schoolInfo = {
   location: 'Tilagbeni, near the New Market, South-East of Saboba Township, Saboba District, Northern Region',
   address: 'Gaala E.P. Junior High School, Tilagbeni, P.O. Box 9, Saboba, Northern Region, Ghana',
   phone: '+233 XX XXX XXXX',
-  email: 'info@gaalaepjhs.edu.gh',
+  email: 'info@gaalaepjhs.org',
   mapQuery: 'Saboba, Northern Region, Ghana',
   mapEmbedSrc:
     'https://www.google.com/maps?q=Saboba,+Northern+Region,+Ghana&output=embed',
@@ -21,10 +21,10 @@ export const schoolInfo = {
 // Fill these in once the alumni committee has set up the account. Until then
 // the Donate page shows a "details coming soon" message instead of a number.
 export const donationInfo = {
-  momoNumber: '', // e.g. '024 XXX XXXX'
-  momoName: '', // account holder name as registered with the network
-  momoNetwork: '', // e.g. 'MTN Mobile Money'
-  bankDetails: '', // optional: bank name, account name, account number
+  momoNumber: '0597561485', // e.g. '024 XXX XXXX'
+  momoName: 'Gaala EP JHS Alumni', // account holder name as registered with the network
+  momoNetwork: 'MTN Mobile Money', // e.g. 'MTN Mobile Money'
+  merchantID: '065881', // optional: bank name, account name, account number
   note: 'All contributions go toward alumni-led projects at Gaala E.P. JHS: infrastructure, learning materials, and anniversary activities.',
 };
 
